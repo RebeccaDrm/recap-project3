@@ -1,5 +1,6 @@
 export function CharacterCard(character) {
   const cardElement = document.createElement("li");
+  cardElement.classList.add("ul");
   cardElement.classList.add("card");
 
   // Füge den HTML-Inhalt der Karte dynamisch hinzu
